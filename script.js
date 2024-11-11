@@ -3,7 +3,6 @@ function carregar() {
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
-    
     msg.innerHTML = (`<strong>Agora são ${hora} horas!</strong>`)
     if (hora >= 0 && hora < 12) {
            img.src = 'manha.png'
